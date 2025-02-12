@@ -4,9 +4,7 @@ const obj = {
   c : "두부"
 }
 
-const first = Object.keys(obj); // 배열이 됨
-console.log(first);
+const first = Object.keys(obj); // key 값만 뽑아와서 배열을 만듦
+const second = Object.values(obj); // value 값만 뽑아와서 배열을 만듦
 
-for(let a in obj) {
-  console.log(a[first[0]]);
-}
+console.log(second);
